@@ -1,5 +1,6 @@
 ﻿#Requires AutoHotkey v2.0
 
+; -----------------------------------------------------------------------------
 ; class ListViewHistory
 ;
 ; A class to manage cut/copy/paste operations in a ListView.
@@ -8,9 +9,11 @@
 ; Author: iPhilip
 ;
 ; The class is instantiated with the following parameters:
-;   LV - A Guicontrol object representing a ListView
-;   IconNumbers - (Optional) An array of icon indices representing the icons associated with the rows of the ListView. If omitted, it defaults to an empty array.
-;   MaxHistoryEntries - (Optional) An integer representing the maximum number of history entries. If omitted, it defaults to 0, i.e. no limit.
+;   1. LV - A Guicontrol object representing a ListView
+;   2. IconNumbers - (Optional) An array of icon indices representing the icons associated
+;      with the rows of the ListView. If omitted, it defaults to an empty array.
+;   3. MaxHistoryEntries - (Optional) An integer representing the maximum number of history
+;      entries. If omitted, it defaults to 0, i.e. no limit.
 ;
 ; User Properties:
 ;
@@ -23,6 +26,7 @@
 ; Paste(Below := false)
 ; Undo()
 ; Clear()
+; -----------------------------------------------------------------------------
 
 class ListViewHistory
 {

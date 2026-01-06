@@ -1,7 +1,7 @@
 ﻿; Elaborate demonstration of the ListViewHistory class methods applied to three different ListView controls.
 
 #Requires AutoHotkey v2.0
-#Include ListViewHistory Class.ahk
+#Include ..\Lib\ListViewHistory Class.ahk
 
 LV_Parameters := ['w350 r10', ['Col 1', 'Col 2', 'Col 3']]
 LV_RowContent(LV, Index) => ['LV ' LV ' Row ' Index ' Col 1', 'LV ' LV ' Row ' Index ' Col 2', 'LV ' LV ' Row ' Index ' Col 3']

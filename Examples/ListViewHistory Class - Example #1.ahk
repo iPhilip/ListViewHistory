@@ -1,7 +1,7 @@
 ﻿; Simple demonstration of the ListViewHistory class Cut and Paste methods.
 
 #Requires AutoHotkey v2.0
-#Include ListViewHistory Class.ahk
+#Include ..\Lib\ListViewHistory Class.ahk
 
 LV_Parameters := ['w275 r10', ['Col 1', 'Col 2', 'Col 3']]
 LV_RowContent(Index) => ['Row ' Index ' Col 1', 'Row ' Index ' Col 2', 'Row ' Index ' Col 3']
